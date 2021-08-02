@@ -20,7 +20,7 @@ let htmlEkle = (görev)=>{
     editB.classList.add("edit")
 
     let textDiv = document.createElement("div")
-    editB.classList.add("text")
+    textDiv.classList.add("text")
     
         // edit kısmı için
     let editDiv = document.createElement("div")
